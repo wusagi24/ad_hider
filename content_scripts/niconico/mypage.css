@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+/*------------------- */
+/* niconico マイページ */
+/* ------------------ */
+
+/* サイドバー */
+div[data-follow-container],
+/* フッタ */
+iframe[id^="ads"] {
+  display: none !important;
+}

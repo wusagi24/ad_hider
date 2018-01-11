@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+/*------------------------- */
+/* niconico 生放送再生ページ */
+/* ------------------------ */
+
+/* ヘッダー部バナー広告 */
+#headerAd,
+/* 放送詳細欄右カラム広告 */
+#jsFollowingAdContent,
+/* メインコンテンツ最下部広告 */
+#footer_ads {
+  display: none !important;
+}

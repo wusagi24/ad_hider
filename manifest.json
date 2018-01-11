@@ -1,5 +1,20 @@
 {
   "manifest_version": 2,
   "name": "ad hider",
-  "version": "0.1.0"
+  "version": "0.1.0",
+
+  "content_scripts": [
+    {
+      "matches": [
+        "http://www.nicovideo.jp/my/*",
+        "http://www.nicovideo.jp/watch/*",
+        "http://live.nicovideo.jp/watch/*"
+      ],
+      "css": [
+        "content_scripts/niconico/mypage.css",
+        "content_scripts/niconico/watch.css",
+        "content_scripts/niconico/live_watch.css"
+      ]
+    }
+  ]
 }

@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+/*----------------------- */
+/* niconico 動画再生ページ */
+/* ---------------------- */
+
+/* プレイヤー内動画上部のマーキー（スクロールテキスト）部 */
+.MarqueeContainer,
+/* プレイヤー内コメント欄動画再生前のフロート広告 */
+.NicoSpotAdContainer,
+/* プレイヤー内コメント欄下部バナー広告 */
+.MiniBannerAdContainer,
+/* プレイヤー下部の右カラム広告1 */
+.BottomContainer-adContainer,
+/* プレイヤー下部の右カラム広告2 */
+.SideFollowAdContainer,
+/* メインコンテンツ最下部広告 */
+.SuperBannerAdContainer,
+/* 話題の生放送 */
+.LiveTopicsContainer,
+span[class*="liveTopics"] {
+  display: none !important;
+}
+
+/* コメント欄下部バナー広告を削除した際に残る空間の調整 */
+.CommentPanelContainer {
+  bottom: 0 !important;
+}
