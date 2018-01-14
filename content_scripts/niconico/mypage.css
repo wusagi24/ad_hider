@@ -4,6 +4,8 @@
 /* niconico マイページ */
 /* ------------------ */
 
+/* ヘッダ */
+#header .headerBanner,
 /* サイドバー */
 div[data-follow-container],
 /* フッタ */
