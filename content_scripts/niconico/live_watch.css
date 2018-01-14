@@ -12,3 +12,17 @@
 #footer_ads {
   display: none !important;
 }
+
+
+/*-------------------------------- */
+/* niconico 生放送再生ページ(HTML5) */
+/* ------------------------------- */
+
+/* ヘッダエリアバナー広告 */
+#header-ad,
+/* 番組詳細エリアバナー広告 */
+#description-ad,
+/* フッタエリアバナー広告 */
+#footer-ad {
+  display: none !important;
+}
