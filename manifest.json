@@ -26,6 +26,14 @@
         "content_scripts/youtube/top.css",
         "content_scripts/youtube/watch.css"
       ]
+    },
+    {
+      "matches": [
+        "http://mixi.jp/*"
+      ],
+      "css": [
+        "content_scripts/mixi/common.css"
+      ]
     }
   ]
 }
