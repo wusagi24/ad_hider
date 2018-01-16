@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+/* ---- */
+/* mixi */
+/* ---- */
+
+/* ヘッダバナー */
+div[class*="adBanner"] > div,
+/* 汎用 */
+#adBanner, .adBanner {
+  display: none !important;
+}
