@@ -19,12 +19,12 @@
 /* ------------------------------- */
 
 /* ヘッダエリアバナー広告 */
-#header-ad,
+aside[class*="banner-ad"],
 /* コメントエリアフローティングバナー広告 */
 aside[class*="banner-panel"],
 /* 番組詳細エリアバナー広告 */
-#description-ad,
+aside[class*="program-information-ad-area"],
 /* フッタエリアバナー広告 */
-#footer-ad {
+aside[class*="footer-ad"] {
   display: none !important;
 }
