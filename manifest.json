@@ -16,6 +16,16 @@
         "content_scripts/niconico/watch.css",
         "content_scripts/niconico/live_watch.css"
       ]
+    },
+    {
+      "matches": [
+        "https://www.youtube.com/",
+        "https://www.youtube.com/watch*"
+      ],
+      "css": [
+        "content_scripts/youtube/top.css",
+        "content_scripts/youtube/watch.css"
+      ]
     }
   ]
 }

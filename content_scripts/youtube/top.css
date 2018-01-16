@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+/*-------------------- */
+/* youtube トップページ */
+/* ------------------- */
+
+#masthead-ad {
+  display: none !important;
+}
